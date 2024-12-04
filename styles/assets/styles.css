@@ -1,28 +1,89 @@
-body{background-color:#FFFFFF; 
+
+
+p {
+    color: #2B2B2B;
 }
-p{color: #2B2B2B;}
+
 header {
-    background-color: blue;}
-
-header{color:#FFFFFF;}
-nav{background-color:#FFFFFF;
-text-align: center;
-padding: 10px; 
-}
-h2{color: #660000;
-text-shadow:1px 1px 1px #747474;}
-.academy{color: #043260;}
-h1{margin-bottom:0;}
-body{background-image:url(../../pages/white-monochrome.jpg);}
-#wrapper{width:80%;
-min-width:600px ;
-max-width:1024px ;
-margin:0 auto;
-background-color:rgba(0,0,0,0.4) ;
-box-shadow: 5px; color: #666666;;
+    background-color: blue;
 }
 
-.resume changes{
-    background-color: aqua;
+header {
+    color: #FFFFFF;
+}
+
+nav {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+
 
 }
+
+h2 {
+    color: #660000;
+    text-shadow: 1px 1px 1px #747474;
+}
+
+.academy {
+    color: #043260;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+
+
+#wrapper {
+    width: 80%;
+    min-width: 600px;
+    max-width: 1024px;
+    margin: 0 auto;
+    box-shadow: 5px;
+    color: #666666;
+    ;
+}
+
+
+
+
+.school {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+
+
+body{background-image:url('../../images/portfolio_Background.jpg');
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+    
+        footer {
+            background-color: blue;   
+            color: white;             
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-top: 20px;
+        }
+    
+    
+    
