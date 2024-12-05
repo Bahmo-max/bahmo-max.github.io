@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+
+</head>
+
+<header>
+<h1>Project Details</h1>
+</header>
+
+<nav>
+    <link href="styles/assets/styles.css" rel="stylesheet">
+    <a href="index.html"> Home</a>&nbsp;
+
+    <a href="Contact.html">Contact</a>&nbsp
+    <a href="https://www.linkedin.com/in/mbah-tech/" target="_blank">View my LinkedIn
+        Profile</a>&nbsp;|&nbsp;
+    <a href="Resume.html">View my Resume</a>
+    <a href="Projects.html">Projects</a>
+</nav>
+
+
+<body>
+    <h2>Simple Calculator</h2>
+    <link href="styles/assets/2styles.css" rel="stylesheet">
+   
+    <p><b>This calculator is displayed using javascript, CSS ,
+        and html for calculations and user input. The user can touch a button and
+        calculate any number of their choice by adding, subtracting, multiplication.
+        Or division.
+    </b></p>
+
+    <div class="calculator">
+        <div id="display">0</div>
+        <div class="buttons">
+          <button class="button" onclick="clearDisplay()">C</button>
+          <button class="button" onclick="appendToDisplay('/')">/</button>
+          <button class="button" onclick="appendToDisplay('*')">*</button>
+          <button class="button" onclick="appendToDisplay('-')">-</button>
+    
+          <button class="button" onclick="appendToDisplay('7')">7</button>
+          <button class="button" onclick="appendToDisplay('8')">8</button>
+          <button class="button" onclick="appendToDisplay('9')">9</button>
+          <button class="button" onclick="appendToDisplay('+')">+</button>
+    
+    
+          <button class="button" onclick="appendToDisplay('4')">4</button>
+          <button class="button" onclick="appendToDisplay('5')">6</button>
+          <button class="button" onclick="appendToDisplay('6')">6</button>
+          <button class="button" onclick="calculateResult()">=</button>
+    
+    
+          <button class="button" onclick="appendToDisplay('1')">1</button>
+          <button class="button" onclick="appendToDisplay('2')">2</button>
+          <button class="button" onclick="appendToDisplay('3')">3</button>
+          <button class="button" onclick="appendToDisplay('0')">0</button>
+          <button class="button" onclick="appendToDisplay('.')">.</button>
+    
+        </div>
+      </div>
+      <script src="javaScript/2script.js"></script>
+      
+</body>
+</html>
