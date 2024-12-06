@@ -81,6 +81,12 @@ footer {
     width: 100%;
     max-width: 500px;
 }
+.SC img {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+}
 
 h2 {
     background-color: gray;
