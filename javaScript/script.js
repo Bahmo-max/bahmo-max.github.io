@@ -11,7 +11,9 @@ document.addEventListener("DOMContentLoaded", function() {
         const thankYouMessage = document.getElementById("thankYouMessage");
 
         thankYouMessage.textContent = `Thank you, ${name}! Your email (${email}) has been received.`;
-        
+        console.log("Name entered:", name);
+        console.log("Email entered:", email);
+
         form.reset();
     });
 });
